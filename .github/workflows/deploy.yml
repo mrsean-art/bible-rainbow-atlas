@@ -29,6 +29,8 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+      - name: Build Bible datasets
+        run: npm run data:build
 
       - name: Build website
         env:
