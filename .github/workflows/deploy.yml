@@ -34,8 +34,8 @@ jobs:
 
       - name: Build website
         env:
-         BASE_PATH: /bible-cross-reference-atlas/
-         SITE_ORIGIN: https://mrsean-art.github.io
+          BASE_PATH: /bible-cross-reference-atlas/
+          SITE_ORIGIN: https://mrsean-art.github.io
         run: npm run build
 
       - name: Upload built website
